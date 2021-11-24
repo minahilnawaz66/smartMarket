@@ -1,0 +1,122 @@
+$small-title-color: #999;
+$footer-icon-border: #b3b3b3;
+$black: #000;
+footer {
+	background: $footer-background;
+	height: 446;
+	.footer-top {
+		border-top: 0;
+		padding-top: 80px;
+		position: relative;
+		z-index: 1;
+		line-height: 24px;
+		padding-bottom: 60px;
+		.content-text {
+			font-size: 13px;
+			letter-spacing: 0.5px;
+			color: $secondary;
+		}
+	}
+
+	ul {
+		font-size: 13px;
+		line-height: 28px;
+		letter-spacing: 0.5px;
+		color: $secondary;
+	}
+
+	.typo-footer ul.content {
+		margin-bottom: 10px;
+	}
+	.module-title {
+		font-weight: 500;
+		padding-bottom: 0;
+		text-transform: capitalize;
+		letter-spacing: 0;
+		font-size: 16px;
+		margin: 0 0 20px;
+		text-align: left;
+	}
+	.slide-img {
+		margin-bottom: 22px;
+	}
+	address {
+		padding-top: 25px;
+		margin-top: 25px;
+		border-top: 1px solid #e3e4e8;
+		padding-bottom: 10px;
+	}
+	.small-title {
+		margin-bottom: 20px;
+		text-align: left;
+		letter-spacing: 0;
+		font-size: 14px;
+		color: $small-title-color;
+	}
+	.input-group {
+		width: 100%;
+		margin: auto;
+		border: 0;
+		color: $small-title-color;
+		height: 38px;
+		outline: 0;
+		padding: 0;
+		border-top-left-radius: none;
+		.input-group {
+			input {
+				font-size: 12px;
+				margin: 0;
+				background: #dbdde3;
+				border: none;
+				height: 40px;
+				line-height: 40px;
+				text-transform: capitalize;
+				border-radius: 40px;
+			}
+			span {
+				height: 40px;
+				font-size: 13px;
+				border: none;
+				line-height: 40px;
+				min-width: 110px;
+				font-weight: 500;
+				text-transform: uppercase;
+				outline: 0;
+				border-radius: 0 40px 40px 0;
+				background: $primary;
+				text-align: center;
+				letter-spacing: 1px;
+			}
+		}
+	}
+	.footer-icon {
+		padding-top: 35px;
+		text-align: left;
+		h5 {
+			display: inline-block;
+			font-size: 14px;
+			text-transform: uppercase;
+			letter-spacing: 0;
+			font-weight: 500;
+			color: $black;
+		}
+		.footer-icon-share a {
+			font-size: 18px;
+			line-height: 35px;
+			height: 35px;
+			width: 35px;
+			border: 1px solid $footer-icon-border;
+			display: inline-block;
+			text-align: center;
+			border-radius: 100%;
+			color: $black;
+		}
+		.footer-icon-share a:hover {
+			color: $white;
+			background-color: $primary;
+		}
+	}
+}
+.line-height-22 {
+	line-height: 22px;
+}
