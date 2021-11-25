@@ -1,6 +1,30 @@
+$primary: #e23e1d;
+$black: #000;
 .font-weight-400 {
 	font-weight: 400;
 }
 .font-weight-500 {
 	font-weight: 500;
+}
+.container {
+	padding: 0 75px;
+	max-width: 100%;
+}
+.text-dec-none {
+	text-decoration: none;
+}
+.text-color-primary {
+	color: $primary;
+}
+.font-weight-300 {
+	font-weight: 300;
+}
+.text-color-black {
+	color: $black;
+}
+.b-none {
+	border: none;
+}
+.br-none {
+	border-radius: none;
 }

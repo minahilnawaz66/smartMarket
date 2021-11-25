@@ -1,0 +1,150 @@
+$border-color: #ebebeb;
+li {
+	position: relative;
+	padding-left: 0;
+	margin-bottom: 0;
+}
+.p-side-dropdown {
+	.side-dropdown {
+		width: 220px;
+		height: 40px;
+		border: 1px solid rgba(233, 233, 233, 0.8);
+	}
+}
+li {
+	span {
+		.menu-title {
+			font-size: 14px;
+			font-weight: 400;
+			letter-spacing: 0.5px;
+			text-transform: capitalize;
+		}
+	}
+}
+
+.block-right-item {
+	padding-bottom: 20px;
+	position: relative;
+	.content-block {
+		position: absolute;
+		left: 30px;
+		top: 14%;
+		z-index: 2;
+	}
+}
+.carousel-caption {
+	bottom: 20%;
+	left: 10%;
+	.title {
+		font-weight: 500;
+		font-size: 36px;
+		text-transform: uppercase;
+		line-height: 36px;
+		margin: 0 0 5px;
+		letter-spacing: 1px;
+	}
+	.text {
+		a {
+			padding: 0 30px;
+			border-radius: 30px;
+			display: inline-block;
+			transition: all 0.3s ease-in-out 0s;
+			text-transform: uppercase;
+			font-weight: 400;
+			font-size: 14px;
+			letter-spacing: 1px;
+			height: 42px;
+			line-height: 41px;
+			margin-top: 25px;
+			border: 2px solid $primary;
+		}
+		a:hover {
+			background: $primary;
+			color: white;
+		}
+	}
+	.carousel-control-prev {
+		.prev {
+			left: 0;
+		}
+	}
+}
+.product-content-top {
+	padding: 0 20px;
+	text-align: left;
+}
+p.product-vendor span {
+	font-size: 12px;
+	text-transform: uppercase;
+	line-height: 30px;
+	color: #4c4c4c;
+}
+.section-main-big {
+	.section-title {
+		border-bottom: 1px solid $border-color;
+		position: relative;
+		padding: 10px 0;
+	}
+	.section-title::after {
+		content: "";
+		background: $primary;
+		width: 70px;
+		height: 3px;
+		position: absolute;
+		z-index: 1;
+		left: 0;
+		bottom: 0;
+	}
+}
+.carousel-caption {
+	.add-to-link {
+		border-radius: 3px;
+		width: auto;
+		text-align: center;
+		z-index: 10;
+		position: absolute;
+		left: 20px;
+		right: 20px;
+		bottom: 30px;
+		background: #f0f2f9;
+		// visibility: hidden;
+		.sca-qv-button {
+			padding: 0;
+			font-size: 14px;
+			text-transform: uppercase;
+			height: 40px;
+			line-height: 40px;
+			font-weight: 500;
+		}
+	}
+	.product-content-top:hover {
+		opacity: 1;
+		visibility: visible;
+	}
+}
+.carousel-inner {
+	.carousel-side-img {
+		width: 80%;
+		height: auto;
+		border: 0;
+		transition: all 250ms ease-in-out 0s;
+	}
+	.product-content-bottom {
+		border-top: 0;
+		padding-top: 10px;
+		height: auto;
+		margin-top: 20px;
+	}
+}
+.card {
+	padding: 0 10px;
+}
+.category-block {
+	position: absolute;
+	bottom: 15px;
+	margin-bottom: 0;
+	width: 100%;
+	text-align: center;
+	left: 0;
+	top: 80%;
+}
