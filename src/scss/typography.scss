@@ -1,5 +1,6 @@
 $primary: #e23e1d;
 $black: #000;
+$grey: #eee;
 .font-weight-400 {
 	font-weight: 400;
 }
@@ -27,4 +28,28 @@ $black: #000;
 }
 .br-none {
 	border-radius: none;
+}
+.bg-grey {
+	background-color: $grey;
+}
+.op-1 {
+	opacity: 1;
+}
+.font-size-16 {
+	font-size: 16px;
+}
+.w-30 {
+	width: 30%;
+}
+.text-blog-gray {
+	color: #b7b7b7;
+}
+.font-size-13 {
+	font-size: 13px;
+}
+.w-50 {
+	width: 50%;
+}
+.mll-3 {
+	margin-left: 30px;
 }
