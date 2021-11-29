@@ -6,6 +6,9 @@ $secondary: #4c4c4c;
 $white: #fff;
 $border-color: #ebebeb;
 $footer-background: #f0f2f9;
+$dropdown-color: #222;
+$dropdown-content: #888;
+$black: black;
 body {
 	font-family: "Rubik", sans-serif;
 }
@@ -139,4 +142,116 @@ body {
 			padding-left: 30px;
 		}
 	}
+}
+.sticky-top {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	z-index: 999;
+	border-radius: 0%;
+	// box-shadow: 0 0 3px 2px #eaeaea;
+}
+// dropdown
+.dropdownn {
+	display: inline-block;
+	position: relative;
+
+	.dropdown-content {
+		background-color: $dropdown-color;
+		display: none;
+		height: 308px;
+		position: absolute;
+		width: 220px;
+		z-index: 1;
+
+		a {
+			color: $dropdown-content;
+			display: block;
+			text-decoration: none;
+		}
+		li {
+			a {
+				font-size: 14px;
+				padding: 10px 0;
+				text-transform: capitalize;
+				font-weight: 400;
+				line-height: 16px;
+				margin-top: 0;
+			}
+			a:hover {
+				color: $white;
+			}
+		}
+		.menu-title {
+			margin-top: 0;
+			font-size: 13px;
+			margin-bottom: 10px;
+			border-bottom: 1px solid #888;
+			font-weight: 600;
+			text-transform: uppercase;
+		}
+	}
+}
+
+.dropdownn:hover .dropdown-content {
+	display: block;
+	color: $white;
+	display: table;
+}
+.left-100 {
+	left: -400px;
+}
+
+// dropdown-side-menu
+.dropdown-side-menu {
+	display: inline-block;
+	position: relative;
+
+	.dropdown-content-side-menu {
+		background-color: $white;
+		display: none;
+		height: 192px;
+		position: absolute;
+		width: 215px;
+		z-index: 1;
+
+		a {
+			color: $black;
+			display: block;
+			text-decoration: none;
+		}
+		li {
+			a {
+				font-size: 14px;
+				padding: 10px 0;
+				text-transform: capitalize;
+				font-weight: 400;
+				line-height: 16px;
+				margin-top: 0;
+			}
+			a:hover {
+				color: $primary;
+			}
+			border-bottom: 1px solid rgba(233, 233, 233, 0.8);
+			padding-bottom: 5px;
+			line-height: 30px;
+		}
+	}
+}
+
+.dropdown-side-menu:hover .dropdown-content-side-menu {
+	display: block;
+	color: $primary;
+	display: table;
+	left: 100%;
+	top: -2px;
+	transition: all 0.3s ease-in-out 0s;
+	animation-delay: 0.1s;
+	animation-duration: 340ms;
+	animation-fill-mode: both;
+	animation-name: animation_vertical_menu;
+	z-index: 999;
+}
+.border-color-primary {
+	border-top: 2px solid $primary;
 }
