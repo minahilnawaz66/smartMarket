@@ -14,14 +14,13 @@ li {
 		border: 1px solid rgba(233, 233, 233, 0.8);
 	}
 }
-li {
-	span {
-		.menu-title {
-			font-size: 14px;
-			font-weight: 400;
-			letter-spacing: 0.5px;
-			text-transform: capitalize;
-		}
+
+span {
+	.menu-title {
+		font-size: 14px;
+		font-weight: 400;
+		letter-spacing: 0.5px;
+		text-transform: capitalize;
 	}
 }
 
