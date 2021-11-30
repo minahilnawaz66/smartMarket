@@ -149,12 +149,13 @@ body {
 	top: 0;
 	z-index: 999;
 	border-radius: 0%;
-	// box-shadow: 0 0 3px 2px #eaeaea;
 }
+
 // dropdown
 .dropdownn {
 	display: inline-block;
 	position: relative;
+	z-index: 999;
 
 	.dropdown-content {
 		background-color: $dropdown-color;
@@ -208,7 +209,7 @@ body {
 	position: relative;
 
 	.dropdown-content-side-menu {
-		background-color: $white;
+		transition: 1s;
 		display: none;
 		height: 192px;
 		position: absolute;
@@ -254,4 +255,75 @@ body {
 }
 .border-color-primary {
 	border-top: 2px solid $primary;
+}
+
+// .fixed .navbar {
+// 	box-shadow: 0 0 3px 2px #eaeaea;
+// }
+
+.animation {
+	animation: slideBounceInDown 1s ease-in-out;
+}
+.animation-delay {
+	animation-delay: 0.4s;
+}
+.animation-delay-more {
+	animation-delay: 0.7s;
+}
+
+@keyframes slideBounceInDown {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateY(-2000px);
+	}
+	60% {
+		opacity: 1;
+		-webkit-transform: translateY(30px);
+	}
+	80% {
+		-webkit-transform: translateY(-10px);
+	}
+	100% {
+		-webkit-transform: translateY(0);
+	}
+}
+// side-menu
+@keyframes slideIn {
+	0% {
+		min-width: 0;
+		max-width: 0;
+		opacity: 1;
+	}
+	100% {
+		opacity: 1;
+		max-width: 230px;
+	}
+}
+
+.animated-slideIn {
+	animation-duration: 0.5s;
+	animation-fill-mode: both;
+	animation-name: slideIn;
+	transform-origin: 0 100% 0;
+}
+@keyframes slideDown {
+	0% {
+		opacity: 0;
+		transform: translateY(-350px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+.fixed .main-nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 999;
+	animation-name: slideDown;
+	animation-duration: 1s;
+	animation-fill-mode: both;
+	box-shadow: 0 0 3px 2px #eaeaea;
 }
