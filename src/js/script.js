@@ -1,3 +1,7 @@
+import $ from 'jquery';
+
+import '../../node_modules/slick-carousel/slick/slick.min';
+
 $('.responsive').slick({
 	dots: false,
 	infinite: false,

@@ -1,0 +1,81 @@
+@keyframes slideIn {
+	0% {
+		opacity: 0;
+		transform: translateX(-10%) rotate(-1deg);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0px) rotate(0deg);
+	}
+}
+.slideIn {
+	animation-name: slideIn;
+}
+.animated {
+	animation-duration: 0.5s;
+	animation-fill-mode: both;
+}
+.animation {
+	animation: slideBounceInDown 1s ease-in-out;
+}
+.animation-delay {
+	animation-delay: 0.4s;
+}
+.animation-delay-more {
+	animation-delay: 0.7s;
+}
+
+@keyframes slideBounceInDown {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateY(-2000px);
+	}
+	60% {
+		opacity: 1;
+		-webkit-transform: translateY(30px);
+	}
+	80% {
+		-webkit-transform: translateY(-10px);
+	}
+	100% {
+		-webkit-transform: translateY(0);
+	}
+}
+// vertical-menu animation
+@keyframes slideIn {
+	0% {
+		opacity: 0;
+		transform: translateX(-10px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0px);
+	}
+}
+
+.animated-slideIn {
+	animation-duration: 0.5s;
+	animation-fill-mode: both;
+	animation-name: slideIn;
+}
+@keyframes slideDown {
+	0% {
+		opacity: 0;
+		transform: translateY(-350px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+.fixed .main-nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 999;
+	animation-name: slideDown;
+	animation-duration: 0.5s;
+	animation-fill-mode: both;
+	box-shadow: 0 0 3px 2px #eaeaea;
+}

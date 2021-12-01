@@ -4,18 +4,18 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
-		<link rel="stylesheet" href="node_modules/fontawesome-4.7/css/font-awesome.min.css" />
-		<link rel="stylesheet" href="node_modules/slick-slider/slick/slick-theme.css" />
-		<link rel="stylesheet" href="node_modules/slick-slider/slick/slick.css" />
-		<link rel="stylesheet" href="dist/css/style.css" />
-		<title>Home</title>
+		<link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="../node_modules/fontawesome-4.7/css/font-awesome.min.css" />
+		<link rel="stylesheet" href="../node_modules/slick-slider/slick/slick-theme.css" />
+		<link rel="stylesheet" href="../node_modules/slick-slider/slick/slick.css" />
+		<link rel="stylesheet" href="../dist/css/style.css" />
+		<title>Smart Market</title>
 	</head>
 	<body>
 		<!-- banner-image -->
 		<div class="banner-top">
 			<a href="#">
-				<img class="w-100" src="src/images/promotion-image.jpg" alt="Banner Image here" />
+				<img class="w-100" src="../src/images/promotion-image.jpg" alt="Banner Image here" />
 			</a>
 			<div class="header-top-close --bs-gray-700" onclick="this.parentElement.style.display='none';">&times;</div>
 		</div>
@@ -56,7 +56,7 @@
 		<!-- Main Navbar -->
 		<nav id="header-content" class="navbar navbar-expand-lg navbar-light main-nav bg-white">
 			<div class="container-fluid">
-				<a class="navbar-brand" href="#"><img src="src/images/logo.jpg" alt="Logo Image here" /></a>
+				<a class="navbar-brand" href="#"><img src="../src/images/logo.jpg" alt="Logo Image here" /></a>
 				<button
 					class="navbar-toggler"
 					type="button"
@@ -121,7 +121,8 @@
 						</li>
 						<li class="nav-item px-2">
 							<div class="dropdownn position-relative">
-								<a class="nav-link text-black" href="#">SHOP<i class="fa fa-angle-down"></i></a>
+								<a class="nav-link text-black" href="#">SHOP<i class="fa fa-angle-down position-relative"></i><span class="label-new">NEW</span></a>
+
 								<div class="dropdown-content left-100" style="width: 1300px; height: 321px">
 									<div class="list-unstyled px-3 py-2">
 										<div class="row">
@@ -291,19 +292,19 @@
 								<div class="dropdown-content" style="height: 200px">
 									<ul class="list-unstyled px-3 py-2">
 										<li class="">
-											<a class="" href="" title="Home Layout 1"><span class="">Faqs </span></a>
+											<a class="" href="pages/faqs.html" title="Home Layout 1"><span class="">Faqs </span></a>
 										</li>
 										<li class="">
-											<a class="" href="" title="Home Layout 2"><span class="">Blog </span></a>
+											<a class="" href="pages/blog.html" title="Home Layout 2"><span class="">Blog </span></a>
 										</li>
 										<li class="">
-											<a class="" href="" title="Home Layout 3"><span class="">Contact </span></a>
+											<a class="" href="pages/contact.html" title="Home Layout 3"><span class="">Contact </span></a>
 										</li>
 										<li class="">
-											<a class="" href="" title="Home Layout 4"><span class="">About Us </span></a>
+											<a class="" href="pages/aboutUs.html" title="Home Layout 4"><span class="">About Us </span></a>
 										</li>
 										<li class="">
-											<a class="" href="" title="Home Layout 5"><span class="">Lootbook </span></a>
+											<a class="" href="pages/lookBook.html" title="Home Layout 5"><span class="">Lootbook </span></a>
 										</li>
 									</ul>
 								</div>
@@ -2923,10 +2924,9 @@
 				</div>
 			</div>
 		</footer>
-		<script src="node_modules/jquery/dist/jquery.min.js"></script>
-		<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-		<script src="node_modules/slick-slider/slick/slick.min.js"></script>
-		<script src="src/js/script.js"></script>
+		<script src="../node_modules/jquery/dist/jquery.min.js"></script>
+		<script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+		<script src="../dist/js/bundle.js"></script>
 		<script>
 			$(document).ready(function () {
 				var navpos = $("#header-content").offset();
