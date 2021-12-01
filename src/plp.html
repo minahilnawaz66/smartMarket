@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="../node_modules/fontawesome-4.7/css/font-awesome.min.css" />
+		<link rel="stylesheet" href="../node_modules/slick-slider/slick/slick-theme.css" />
+		<link rel="stylesheet" href="../node_modules/slick-slider/slick/slick.css" />
+		<link rel="stylesheet" href="../dist/css/style.css" />
+		<title>Smart Market-PLP</title>
+	</head>
+	<body>
+		<!-- banner-image -->
+		<div class="banner-top">
+			<a href="#">
+				<img class="w-100" src="../src/images/promotion-image.jpg" alt="Banner Image here" />
+			</a>
+			<div class="header-top-close --bs-gray-700" onclick="this.parentElement.style.display='none';">&times;</div>
+		</div>
+		<!-- navbar -->
+		<nav class="navbar navbar-expand-lg navbar-light bg-navbar-top navbar-top">
+			<div class="container-fluid">
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<div class="navbar-nav me-auto mb-2 mb-lg-0">
+						<div class="header-top-left bg-secondary-color">
+							SHOP EVENTS & SAVE UPTO
+							<span class="bg-primary-color">65% OFF!</span>
+						</div>
+						<div class="header-top-left bg-secondary-color">
+							Call Us:
+							<span class="bg-primary-color">001-1234-88888</span>
+						</div>
+					</div>
+					<div class="pull-right nav-item list-inline navbar-nav pt-1 mb-2 mb-lg-0">
+						<div class="nav-item dropdown currency">
+							<a class="nav-link text-black" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+								USD<i class="fa fa-angle-down"></i>
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<li><a class="dropdown-item" href="#">USD</a></li>
+								<li><a class="dropdown-item" href="#">EUR</a></li>
+							</ul>
+						</div>
+						<div class="social-media d-lg-block list-inline">
+							<span class="facebook"><i class="fa fa-facebook"></i></span>
+							<span class="twiiter"><i class="fa fa-twitter"></i></span>
+							<span class="tumblr"><i class="fa fa-google-plus"></i></span>
+							<span class="pinterest"><i class="fa fa-instagram"></i></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<!-- Main Navbar -->
+		<nav id="header-content" class="navbar navbar-expand-lg navbar-light main-nav bg-white">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#"><img src="../src/images/logo.jpg" alt="Logo Image here" /></a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarNav"
+					aria-controls="navbarNav"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse mx-5 px-5" id="navbarNav">
+					<ul class="navbar-nav text-black mx-2">
+						<li class="nav-item px-2">
+							<div class="dropdownn">
+								<a class="nav-link text-black" href="#">HOME<i class="fa fa-angle-down"></i></a>
+								<div class="dropdown-content">
+									<ul class="list-unstyled px-3 py-2">
+										<li class="">
+											<a class="" href="https://smartmarket-01.myshopify.com/?preview_theme_id=6640926754" title="Home Layout 1"
+												><span class="">Home Layout 1 </span></a
+											>
+										</li>
+										<li class="">
+											<a class="" href="https://smartmarket-01.myshopify.com/?preview_theme_id=8018329634" title="Home Layout 2"
+												><span class="">Home Layout 2 </span></a
+											>
+										</li>
+										<li class="">
+											<a class="" href="https://smartmarket-01.myshopify.com/?preview_theme_id=8018427938" title="Home Layout 3"
+												><span class="">Home Layout 3 </span></a
+											>
+										</li>
+										<li class="">
+											<a class="" href="https://smartmarket-01.myshopify.com/?preview_theme_id=8031502370" title="Home Layout 4"
+												><span class="">Home Layout 4 </span></a
+											>
+										</li>
+										<li class="">
+											<a class="" href="https://smartmarket-01.myshopify.com/?preview_theme_id=8047624226" title="Home Layout 5"
+												><span class="">Home Layout 5 </span></a
+											>
+										</li>
+										<li class="">
+											<a class="" href="https://smartmarket-01.myshopify.com/?preview_theme_id=8056438818" title="Home Layout 6"
+												><span class="">Home Layout 6 </span></a
+											>
+										</li>
+										<li class="">
+											<a class="" href="https://smartmarket-01.myshopify.com/?preview_theme_id=8078721058" title="Home Layout 7"
+												><span class="">Home Layout 7 </span></a
+											>
+										</li>
+										<li class="">
+											<a class="" href="https://smartmarket-01.myshopify.com/?preview_theme_id=9959538722" title="Home Layout 8"
+												><span class="">Home Layout 8 </span></a
+											>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li class="nav-item px-2">
+							<div class="dropdownn position-relative">
+								<a class="nav-link text-black" href="#">SHOP<i class="fa fa-angle-down position-relative"></i><span class="label-new">NEW</span></a>
+
+								<div class="dropdown-content left-100" style="width: 1300px; height: 321px">
+									<div class="list-unstyled px-3 py-2">
+										<div class="row">
+											<div class="mega-item col-sm-12 col-md-12 px-4">
+												<div class="row">
+													<div class="col-sm-2 pt-4">
+														<div class="mega-col-inner">
+															<div class="menu-title">
+																<a href="" class="text-white">Computer </a>
+															</div>
+															<div class="widget-inner">
+																<ul class="nav-links list-unstyled">
+																	<li class=""><a href="" title="Notebook PC">Notebook PC</a></li>
+
+																	<li class=""><a href="" title="All In One PC">All In One PC</a></li>
+
+																	<li class=""><a href="" title="Ultrabook">Ultrabook</a></li>
+
+																	<li class=""><a href="" title="Hybrid Laptop">Hybrid Laptop</a></li>
+
+																	<li class=""><a href="" title="Mobile Work Station">Mobile Work Station</a></li>
+																</ul>
+															</div>
+														</div>
+													</div>
+													<div class="col-sm-2 pt-4">
+														<div class="mega-col-inner">
+															<div class="menu-title">
+																<a href="" class="text-white">Electronics </a>
+															</div>
+															<div class="widget-inner">
+																<ul class="nav-links list-unstyled">
+																	<li class=""><a href="" title="Android OS">Android OS</a></li>
+
+																	<li class=""><a href="" title="Windows Phone">Windows Phone</a></li>
+
+																	<li class=""><a href="" title="Apple iOS">Apple iOS</a></li>
+
+																	<li class=""><a href="" title="Ubuntu OS">Ubuntu OS</a></li>
+
+																	<li class=""><a href="" title="Chrome OS">Chrome OS</a></li>
+																</ul>
+															</div>
+														</div>
+													</div>
+													<div class="col-sm-2 pt-4">
+														<div class="mega-col-inner">
+															<div class="menu-title">
+																<a href="" class="text-white">Smartphone </a>
+															</div>
+															<div class="widget-inner">
+																<ul class="nav-links list-unstyled">
+																	<li class=""><a href="" title="Washing Machine">Washing Machine</a></li>
+
+																	<li class=""><a href="" title="Fridge & Fridge Stand">Fridge & Fridge Stand</a></li>
+
+																	<li class=""><a href="" title="Conditioner">Conditioner</a></li>
+
+																	<li class=""><a href="" title="TV & Audio">TV & Audio</a></li>
+
+																	<li class=""><a href="" title="Accessories">Accessories</a></li>
+																</ul>
+															</div>
+														</div>
+													</div>
+													<div class="col-sm-2 pt-4">
+														<div class="mega-col-inner">
+															<div class="menu-title">
+																<a href="" class="text-white">Home Audio & Theater </a>
+															</div>
+															<div class="widget-inner">
+																<ul class="nav-links list-unstyled">
+																	<li class=""><a href="" title="Surveillance">Surveillance</a></li>
+
+																	<li class=""><a href="" title="Security Cameras">Security Cameras</a></li>
+
+																	<li class=""><a href="" title="Smart & Wifi ">Smart & Wifi </a></li>
+
+																	<li class=""><a href="" title="Smart Lighting">Smart Lighting</a></li>
+
+																	<li class=""><a href="" title="Home Automation">Home Automation</a></li>
+																</ul>
+															</div>
+														</div>
+													</div>
+
+													<div class="mega-item col-sm-3 col-md-3 pt-4">
+														<div class="block-html">
+															<div class="widget-inner">
+																<div class="box-image">
+																	<img
+																		class="b-lazy slide-img w-100"
+																		src="//cdn.shopify.com/s/files/1/2506/1620/t/2/assets/mega_images_1.jpg?v=12016081210641521438"
+																		alt=""
+																	/>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="nav-item px-2">
+							<div class="dropdownn">
+								<a class="nav-link text-black" href="#">FEATURES<i class="fa fa-angle-down"></i></a>
+								<div class="dropdown-content" style="width: 600px; height: 394px">
+									<div class="list-unstyled px-3 py-2">
+										<div class="row">
+											<div class="mega-item col-sm-12 col-md-12 px-4">
+												<div class="row">
+													<div class="col-sm-6 pt-4">
+														<div class="menu-title">
+															<a href="" class="text-white">Collections Layout </a>
+														</div>
+														<div class="widget-inner">
+															<ul class="nav-links list-unstyled">
+																<li class=""><a href="" title="Left Sidebar">Left Sidebar</a></li>
+
+																<li class=""><a href="" title="Right Sidebar">Right Sidebar</a></li>
+
+																<li class=""><a href="" title="Without Sidebar">Without Sidebar</a></li>
+
+																<li class=""><a href="" title="Infinite Scrolling Product (auto)">Infinite Scrolling Product (auto)</a></li>
+
+																<li class=""><a href="" title="Collection List Product">Collection List Product</a></li>
+															</ul>
+														</div>
+													</div>
+													<div class="col-sm-6 pt-4">
+														<div class="menu-title">
+															<a href="" class="text-white">product layout </a>
+														</div>
+														<div class="widget-inner">
+															<ul class="nav-links list-unstyled">
+																<li class=""><a href="" title="product layout 1">product layout 1</a></li>
+
+																<li class=""><a href="" title="product layout 2">product layout 2</a></li>
+
+																<li class=""><a href="" title="product layout 3">product layout 3</a></li>
+
+																<li class=""><a href="" title="product layout 4">product layout 4</a></li>
+
+																<li class=""><a href="" title="product layout 5">product layout 5</a></li>
+
+																<li class=""><a href="" title="product layout 6">product layout 6</a></li>
+
+																<li class=""><a href="" title="product layout 7">product layout 7</a></li>
+
+																<li class=""><a href="" title="product layout 8">product layout 8</a></li>
+															</ul>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="nav-item px-2">
+							<div class="dropdownn">
+								<a class="nav-link text-black" href="#">PAGES<i class="fa fa-angle-down"></i></a>
+								<div class="dropdown-content" style="height: 200px">
+									<ul class="list-unstyled px-3 py-2">
+										<li class="">
+											<a class="" href="pages/faqs.html" title="Home Layout 1"><span class="">Faqs </span></a>
+										</li>
+										<li class="">
+											<a class="" href="pages/blog.html" title="Home Layout 2"><span class="">Blog </span></a>
+										</li>
+										<li class="">
+											<a class="" href="pages/contact.html" title="Home Layout 3"><span class="">Contact </span></a>
+										</li>
+										<li class="">
+											<a class="" href="pages/aboutUs.html" title="Home Layout 4"><span class="">About Us </span></a>
+										</li>
+										<li class="">
+											<a class="" href="pages/lookBook.html" title="Home Layout 5"><span class="">Lootbook </span></a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li class="nav-item px-2">
+							<a class="nav-link text-black" href="#">SPECIAL OFFER</a>
+						</li>
+					</ul>
+				</div>
+				<div class="login-customer">
+					<div>
+						<span>Login</span>
+						/
+						<span>Register</span>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<!-- header-bottom -->
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-2 col-md-3 col-sm-12 col-xs-12 gap">
+					<div class="block-megamenu">
+						<div class="parent-title">
+							<i class="fa fa-bars px-3"></i>
+							ALL DEPARTMENTS
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-7 col-md-6 col-sm-12 col-xs-12 gap">
+					<form action="/search" method="get" class="input-group search-bar">
+						<input type="hidden" name="type" value="product" />
+						<input type="text" name="q" value="" placeholder="search Product" class="input-group-field" aria-label="Search Site" autocomplete="off" />
+						<span class="input-group-btn text-center">
+							<input type="submit" class="btn text-white" value="SEARCH" />
+						</span>
+					</form>
+				</div>
+				<div class="col-md-3 col-sm-5 col-xs-4 gap" id="header-top-cart">
+					<div class="header-inner-right">
+						<div class="text-order">
+							<i class="fa fa-truck" aria-hidden="true"></i> Track Your Order
+							<i class="fa fa-heart-o text-black"></i>
+							<i class="fa fa-clipboard text-black"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- vertical menu -->
+		<!-- <div class="container gap">
+			<div class="row">
+				<div class="col-sm-3 col-lg-2 p-side-dropdown">
+					<div class="parent dropdown active side-dropdown p-2 d-block">
+						<div class="dropdown-side-menu">
+							<a class="text-dec-none" data-toggle="dropdown" href="/">
+								<span class="text-black">
+									<i class="fa fa-laptop"></i>
+									<span class="menu-title">Computer</span>
+								</span>
+							</a>
+							<i class="fa fa-angle-right pull-right pl-6"></i>
+							<div class="dropdown-content-side-menu">
+								<ul class="animated-slideIn bg-white border-color-primary list-unstyled">
+									<li class="">
+										<a class="" href="/collections/computer" title="Notebook PC">
+											<span class="px-3">Notebook PC</span>
+										</a>
+									</li>
+									<li class="">
+										<a class="" href="/collections/frontpage" title="All In One PC">
+											<span class="px-3">All In One PC</span>
+										</a>
+									</li>
+									<li class="">
+										<a class="" href="/collections/computer" title="Ultrabook">
+											<span class="px-3">Ultrabook</span>
+										</a>
+									</li>
+									<li class="">
+										<a class="" href="/collections/frontpage" title="Hybrid Laptop">
+											<span class="px-3">Hybrid Laptop</span>
+										</a>
+									</li>
+									<li class="">
+										<a class="" href="/collections/frontpage" title="Mobile Work Station">
+											<span class="px-3">Mobile Work Station</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="parent dropdown active side-dropdown p-2 d-block">
+						<div class="dropdown-side-menu">
+							<a class="text-dec-none" data-toggle="dropdown" href="/">
+								<span class="text-black">
+									<i class="fa fa-tv"></i>
+									<span class="menu-title">Shop</span>
+								</span>
+							</a>
+							<i class="fa fa-angle-right pull-right pl-7"></i>
+							<div class="dropdown-content-side-menu" style="width: 700px; height: 519px">
+								<div class="col-lg-12 col-md-3 col-sm-1 animated-slideIn border-color-primary bg-white">
+									<div class="row">
+										<div class="col-lg-4">
+											<div class="row">
+												<ul class="list-unstyled">
+													<li class="">
+														<a class="" href="" title="computer">
+															<span class="px-3 fw-bold font-size-16">Computer</span>
+														</a>
+													</li>
+													<li class="">
+														<a class="" href="" title="Notebook PC">
+															<span class="px-3">Notebook PC</span>
+														</a>
+													</li>
+													<li class="">
+														<a class="" href="" title="All In One PC">
+															<span class="px-3">All In One PC</span>
+														</a>
+													</li>
+													<li class="">
+														<a class="" href="" title="Ultrabook">
+															<span class="px-3">Ultrabook</span>
+														</a>
+													</li>
+													<li class="">
+														<a class="" href="" title="Hybrid Laptop">
+															<span class="px-3">Hybrid Laptop</span>
+														</a>
+													</li>
+													<li class="">
+														<a class="" href="" title="Mobile Work Station">
+															<span class="px-3">Mobile Work Station</span>
+														</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+										<div class="col-lg-4">
+											<div class="row">
+												<ul class="list-unstyled">
+													<li class="">
+														<a class="" href="" title="electronics">
+															<span class="px-3 fw-bold font-size-16">Electronics</span>
+														</a>
+													</li>
+													<li class="">
+														<a class="" href="" title="Android Os">
+															<span class="px-3">Android Os</span>
+														</a>
+													</li>
+													<li class="">
+														<a class="" href="" title="Windows Phone">
+															<span class="px-3">Windows Phone</span>
+														</a>
+													</li>
+													<li class="">
+														<a class="" href="" title="Apple iOS">
+															<span class="px-3">Apple iOS</span>
+														</a>
+													</li>
+													<li class="">
+														<a class="" href="" title="Ubuntu OS">
+															<span class="px-3">Ubuntu OS</span>
+														</a>
+													</li>
+													<li class="">
+														<a class="" href="" title="Chrome OS">
+															<span class="px-3">Chrome OS</span>
+														</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+										<div class="col-lg-4">
+											<div class="row">
+												<ul class="list-unstyled">
+													<li class="">
+														<a class="" href="" title="Smart Phone">
+															<span class="px-3 fw-bold font-size-16">Smart Phone</span>
+														</a>
+													</li>
+													<li class="">
+														<a class="" href="" title="Washing Machine">
+															<span class="px-3">Washing Machine</span>
+														</a>
+													</li>
+													<li class="">
+														<a class="" href="" title="Fridge & Fridge Stand">
+															<span class="px-3">Fridge & Fridge Stand</span>
+														</a>
+													</li>
+													<li class="">
+														<a class="" href="" title="Conditioner">
+															<span class="px-3">Conditioner</span>
+														</a>
+													</li>
+													<li class="">
+														<a class="" href="" title="TV & Audio">
+															<span class="px-3">TV & Audio</span>
+														</a>
+													</li>
+													<li class="">
+														<a class="" href="" title="Accessories">
+															<span class="px-3">Accessories</span>
+														</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+										<div class="col-lg-4">
+											<div class="row">
+												<ul class="list-unstyled">
+													<li class="">
+														<a class="" href="" title="Home Audio & Theater">
+															<span class="px-3 font-size-16 fw-bold">Home Audio & Theater</span>
+														</a>
+													</li>
+													<li class="">
+														<a class="" href="" title="Surveillance">
+															<span class="px-3">Surveillance</span>
+														</a>
+													</li>
+													<li class="">
+														<a class="" href="" title="Security Cameras">
+															<span class="px-3">Security Cameras</span>
+														</a>
+													</li>
+													<li class="">
+														<a class="" href="" title="Smart & Wifi ">
+															<span class="px-3">Smart & Wifi </span>
+														</a>
+													</li>
+													<li class="">
+														<a class="" href="" title="Smart Lighting">
+															<span class="px-3">Smart Lighting</span>
+														</a>
+													</li>
+													<li class="">
+														<a class="" href="" title="Home Automation">
+															<span class="px-3">Home Automation</span>
+														</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+										<div class="col-lg-8">
+											<img src="//cdn.shopify.com/s/files/1/2506/1620/t/2/assets/mega_images_1.jpg?v=12016081210641521438" alt="" class="w-100" />
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="parent dropdown active side-dropdown p-2 d-block">
+						<a class="text-dec-none" data-toggle="dropdown" href="/">
+							<span class="text-black">
+								<i class="fa fa-camera"></i>
+								<span class="menu-title">Camera & Photography</span>
+							</span>
+						</a>
+					</div>
+					<div class="parent dropdown active side-dropdown p-2 d-block">
+						<a class="text-dec-none" data-toggle="dropdown" href="/">
+							<span class="text-black">
+								<i class="fa fa-headphones"></i>
+								<span class="menu-title">Headphones</span>
+							</span>
+						</a>
+					</div>
+					<div class="parent dropdown active side-dropdown p-2 d-block">
+						<a class="text-dec-none" data-toggle="dropdown" href="/">
+							<span class="text-black">
+								<i class="fa fa-music"></i>
+								<span class="menu-title">Musical Instruements</span>
+							</span>
+						</a>
+					</div>
+					<div class="parent dropdown active side-dropdown p-2 d-block">
+						<a class="text-dec-none" data-toggle="dropdown" href="/">
+							<span class="text-black">
+								<i class="fa fa-mobile"></i>
+								<span class="menu-title">Smart Phone & Tablets</span>
+							</span>
+						</a>
+					</div>
+					<div class="parent dropdown active side-dropdown p-2 d-block">
+						<a class="text-dec-none" data-toggle="dropdown" href="/">
+							<span class="text-black">
+								<i class="fa fa-flash"></i>
+								<span class="menu-title">Accesories</span>
+							</span>
+						</a>
+					</div>
+					<div class="parent dropdown active side-dropdown p-2 d-block">
+						<div class="dropdown-side-menu">
+							<a class="text-dec-none" data-toggle="dropdown" href="/">
+								<span class="text-black">
+									<i class="fa fa-microphone"></i>
+									<span class="menu-title">Home Audio & Theater</span>
+								</span>
+							</a>
+							<i class="fa fa-angle-right pull-right pl-1"></i>
+							<div class="dropdown-content-side-menu">
+								<ul class="list-unstyled animated-slideIn bg-white border-color-primary">
+									<li class="">
+										<a class="" href="" title="Surveillance">
+											<span class="px-3">Surveillance</span>
+										</a>
+									</li>
+									<li class="">
+										<a class="" href="" title="Security Cameras">
+											<span class="px-3">Security Cameras</span>
+										</a>
+									</li>
+									<li class="">
+										<a class="" href="" title="Smart & Wifi ">
+											<span class="px-3">Smart & Wifi </span>
+										</a>
+									</li>
+									<li class="">
+										<a class="" href="" title="Smart Lighting">
+											<span class="px-3">Smart Lighting</span>
+										</a>
+									</li>
+									<li class="">
+										<a class="" href="" title="Home Automation">
+											<span class="px-3">Home Automation</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="parent dropdown active side-dropdown p-2 d-block">
+						<a class="text-dec-none" data-toggle="dropdown" href="/">
+							<span class="text-black">
+								<i class="fa fa-print"></i>
+								<span class="menu-title">Printer</span>
+							</span>
+						</a>
+					</div>
+					<div class="parent dropdown active side-dropdown p-2 d-block">
+						<a class="text-dec-none" data-toggle="dropdown" href="/">
+							<span class="text-black">
+								<i class="fa fa-print"></i>
+								<span class="menu-title">Fax Machine</span>
+							</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div> -->
+
+		<!-- main -->
+
+		<div class="wrapper">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="title">
+							<a href="/" title="Back to the frontpage" class="text-decoration-none text-black">Home</a>
+							<span class="icon">/</span>
+							<span class="text-secondary">Computer</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<main class="container typo-main main-content">
+			<div class="row">
+				<!-- filter-sidebar -->
+				<div class="col-lg-2 col-md-3 col-sm-3 col-xs-12 col-left" id="filter-sidebar">
+					<div class="widget sidebar-links">
+						<div class="block-title"><span>Categories</span></div>
+						<div class="widget-content">
+							<ul class="list-unstyled">
+								<li><a class="text-decoration-none text-black px-4" href="/collections/all-product">all product</a></li>
+
+								<li><a class="text-decoration-none text-black px-4" href="/collections/collection">collection</a></li>
+
+								<li><a class="text-decoration-none text-black px-4" href="/collections/computer">Computer</a></li>
+
+								<li><a class="text-decoration-none text-black px-4" href="/collections/electronics">Electronics</a></li>
+
+								<li><a class="text-decoration-none text-black px-4" href="/collections/fashion">fashion</a></li>
+
+								<li><a class="text-decoration-none text-black px-4" href="/collections/frontpage">Smartphone</a></li>
+
+								<li><a class="text-decoration-none text-black px-4" href="/collections/technology">technology</a></li>
+
+								<li><a class="text-decoration-none text-black px-4" href="/collections/watch">watch</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="block-title">
+						<span>Filter Selection</span>
+					</div>
+
+					<div class="sidebar-block">
+						<div class="sidebar-custom">
+							<div class="title">
+								<h3>
+									<span class="text-black">Color</span>
+								</h3>
+							</div>
+							<div class="content">
+								<ul class="list-unstyled">
+									<li><a class="text-decoration-none text-secondary px-4">Red</a></li>
+
+									<li><a class="text-decoration-none text-secondary px-4">Pink</a></li>
+
+									<li><a class="text-decoration-none text-secondary px-4">Blue</a></li>
+
+									<li><a class="text-decoration-none text-secondary px-4">Gray</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="sidebar-custom">
+							<div class="title">
+								<h3>
+									<span class="text-black">SIZE OPTION</span>
+								</h3>
+							</div>
+							<div class="content">
+								<ul class="list-unstyled">
+									<li><a class="text-decoration-none text-secondary px-4">M</a></li>
+
+									<li><a class="text-decoration-none text-secondary px-4">S</a></li>
+
+									<li><a class="text-decoration-none text-secondary px-4">XS</a></li>
+
+									<li><a class="text-decoration-none text-secondary px-4">XL</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="sidebar-custom">
+							<div class="title">
+								<h3>
+									<span class="text-black">PRICE</span>
+								</h3>
+							</div>
+							<div class="content">
+								<ul class="list-unstyled">
+									<li><a class="text-decoration-none text-secondary px-4">50$ - 99$</a></li>
+
+									<li><a class="text-decoration-none text-secondary px-4">100$ - 149$</a></li>
+
+									<li><a class="text-decoration-none text-secondary px-4">200$ - 500$</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="sidebar-custom">
+							<div class="title">
+								<h3>
+									<span class="text-black">MANUFACTURER</span>
+								</h3>
+							</div>
+							<div class="content">
+								<ul class="list-unstyled">
+									<li><a class="text-decoration-none text-secondary px-4">Adidas</a></li>
+									<li><a class="text-decoration-none text-secondary px-4">Nike</a></li>
+									<li><a class="text-decoration-none text-secondary px-4">Converse</a></li>
+									<li><a class="text-decoration-none text-secondary px-4">Chanel</a></li>
+									<li><a class="text-decoration-none text-secondary px-4">Gucci</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<img src="//cdn.shopify.com/s/files/1/2506/1620/t/2/assets/image_collection.jpg?v=10985337685177781175" alt="" class="w-100" />
+				</div>
+				<div class="col-md-9 col-sm-12 col-xs-12 col-main">
+					<div class="toolbar">
+						<div class="toolbar-mode row">
+							<div class="col-md-6 col-sm-6 col-xs-12">
+								<div class="collection-view">
+									<a title="Grid view" class="active" data-view="grid">
+										<span class="fa fa-th"></span>
+									</a>
+									<a title="List view" class="" data-view="list">
+										<span class="fa fa-th-list icon-list"></span>
+									</a>
+								</div>
+								<div class="page-total">Showing: 1-8 of 9</div>
+							</div>
+
+							<div class="col-md-6 col-sm-6 col-xs-6 browse-tags-wrap">
+								<div class="browse-tags text-right">
+									<label>Sort by:</label>
+									<select class="sort-by">
+										<option value="manual">Featured</option>
+										<option value="price-ascending">Price: Low to High</option>
+										<option value="price-descending">Price: High to Low</option>
+										<option value="title-ascending">A-Z</option>
+										<option value="title-descending">Z-A</option>
+										<option value="created-ascending">Oldest to Newest</option>
+										<option value="created-descending">Newest to Oldest</option>
+										<option value="best-selling">Best Selling</option>
+									</select>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="toolbar-bottom"></div>
+				</div>
+			</div>
+		</main>
+		<!-- footer -->
+		<footer class="typo-footer footer-layout-1">
+			<div class="navbar-top">
+				<div class="footer-top">
+					<div class="row">
+						<div class="col-md-3 col-sm-3 col-xs-12">
+							<div class="images"><img class="slide-img" src="src/images/logo.jpg" alt="" /></div>
+							<div class="content-text list-inline line-height-22">
+								<div>101 E 129th St, East Chicago, <br />IN 46312, US</div>
+								<div>Phone: 001-1234-88888</div>
+								<div>Email: info.deercreative@gmail.com</div>
+								<address>© 2017 All rights reserved. Design by Typostores</address>
+
+								<div class="paypal-footer">
+									<img class="" src="//cdn.shopify.com/s/files/1/2506/1620/files/paypal_600x.png?v=1509611286" alt="" />
+								</div>
+							</div>
+						</div>
+						<div class="col-md-2 col-sm-3 col-xs-12">
+							<h3 class="module-title">Find It Fast</h3>
+							<ul class="content list-inline">
+								<li>Laptop $ Computers</li>
+								<li>Smart Phone & Tablets</li>
+								<li>TV & Audio</li>
+								<li>Cameras & Photography</li>
+								<li>Gadgets</li>
+								<li>Car Electronic & GP5</li>
+								<li>Accesories</li>
+							</ul>
+						</div>
+						<div class="col-md-2 col-sm-3 col-xs-12">
+							<h3 class="module-title">Information</h3>
+							<ul class="content list-inline">
+								<li>Find a Store</li>
+								<li>About Us</li>
+								<li>Contact Us</li>
+								<li>Delivery information</li>
+								<li>Privacy Policy</li>
+								<li>Terms & Conditions</li>
+								<li>Gift Cards</li>
+							</ul>
+						</div>
+						<div class="col-md-2 col-sm-3 col-xs-12">
+							<h3 class="module-title">Customer Care</h3>
+							<ul class="content list-inline">
+								<li>My Account</li>
+								<li>Order History</li>
+								<li>Wish List</li>
+								<li>Customer Service</li>
+								<li>Returns / Exchange</li>
+								<li>FAQs</li>
+								<li>Product Support</li>
+							</ul>
+						</div>
+						<div class="col-md-3 col-sm-12 col-xs-12">
+							<div class="newsletter">
+								<h3 class="module-title">
+									<span class="font-weight-400">Sign Up to <strong class="font-weight-500">New letter</strong></span>
+								</h3>
+								<div class="content">
+									<div class="small-title">Subscribe our newsletter gor get notification about information discount.</div>
+									<form method="post" name="mc-embedded-subscribe-form" target="_blank" class="input-group">
+										<div class="input-group">
+											<input type="text" class="form-control" placeholder="Enter Your Email" />
+											<span class="input-group-text text-uppercase text-white">subscribe</span>
+										</div>
+									</form>
+								</div>
+							</div>
+
+							<div class="footer-icon">
+								<h5>GET IN TOUCH !</h5>
+								<span class="footer-icon-share">
+									<a href="#" class="mx-2"><i class="fa fa-facebook"></i></a>
+									<a href="#" class="mx-2"><i class="fa fa-twitter"></i></a>
+									<a href="#" class="mx-2"><i class="fa fa-google-plus"></i></a>
+									<a href="#" class="mx-2"><i class="fa fa-instagram"></i></a>
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script src="../node_modules/jquery/dist/jquery.min.js"></script>
+		<script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+		<script src="../dist/js/bundle.js"></script>
+		<script>
+			$(document).ready(function () {
+				var navpos = $("#header-content").offset();
+				console.log(navpos.top);
+				$(window).bind("scroll", function () {
+					if ($(window).scrollTop() > navpos.top) {
+						$("body").addClass("fixed");
+					} else {
+						$("body").removeClass("fixed");
+					}
+				});
+			});
+		</script>
+	</body>
+</html>

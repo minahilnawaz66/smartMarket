@@ -1,0 +1,221 @@
+$border-bottom: #eee;
+$white: #fff;
+$primary: #e23e1d;
+body,
+html {
+	font-size: 14px;
+	color: #4c4c4c;
+}
+.wrapper {
+	margin-bottom: 20px;
+	padding: 0;
+	.container {
+		.row {
+			.title {
+				padding-top: 30px;
+				padding-left: 0;
+				margin: 12px 0 15px;
+				padding-bottom: 30px;
+				background: 0 0;
+				line-height: normal;
+				border-bottom: 1px solid $border-bottom;
+				font-size: 14px;
+				a {
+					letter-spacing: 0.5px;
+					text-transform: capitalize !important;
+				}
+			}
+		}
+	}
+}
+
+main {
+	.toolbar {
+		line-height: 25px;
+		margin: 0 0 30px;
+		padding: 0 0;
+		.toolbar-mode {
+			line-height: 25px;
+			text-align: center;
+			.browse-tags {
+				select {
+					padding: 5px 10px;
+					line-height: 1.35;
+					height: 36px;
+					border: 1px solid #cbcbcb;
+					border-top-color: rgb(203, 203, 203);
+					border-right-color: rgb(203, 203, 203);
+					border-bottom-color: rgb(203, 203, 203);
+					border-left-color: rgb(203, 203, 203);
+				}
+				.sort-by {
+					color: #222;
+					background: #eee;
+					outline: 0;
+					border-color: #eee;
+				}
+				label {
+					color: #45414e;
+					display: inline-block;
+					font-size: 14px;
+					font-weight: 400;
+					letter-spacing: 0;
+				}
+			}
+			.page-total {
+				padding: 5px 0 5px 0;
+				margin-bottom: 0;
+				text-align: right;
+				text-transform: uppercase;
+				line-height: 1;
+				letter-spacing: 1px;
+				border-bottom: 1px solid #333;
+				display: inline-block;
+				color: #4c4c4c;
+			}
+			.collection-view {
+				float: left;
+				line-height: 1;
+				text-align: left;
+				a.active,
+				a:hover {
+					text-decoration: none;
+					background: #333;
+					color: $white;
+				}
+				a {
+					border: 0 solid #ccc;
+					overflow: hidden;
+					display: inline-block;
+					background: #eee;
+					line-height: 12px;
+					padding: 10px;
+					vertical-align: middle;
+					.icon-list {
+						color: black;
+					}
+					.icon-list:hover {
+						color: $white;
+					}
+				}
+			}
+		}
+	}
+}
+.product-wishlist {
+	display: inline-block;
+	a {
+		height: 40px;
+		width: 40px;
+		font-size: 14px;
+		border: 1px solid #e6e6e6;
+		display: inline-block;
+		text-align: center;
+		line-height: 40px;
+		border-radius: 100%;
+		color: $primary;
+		opacity: 0;
+	}
+	a:hover {
+		background-color: $primary;
+		color: $white;
+		border: 1px solid $primary;
+		opacity: 1;
+	}
+}
+.toolbar-bottom {
+	padding: 25px 0 0;
+	margin-bottom: 0;
+	text-align: right;
+	border-top: 1px solid #ebebeb;
+	margin-top: 20px;
+	display: inline-block;
+	width: 100%;
+}
+
+.block-title {
+	color: #222;
+	text-align: left;
+	margin-bottom: 15px;
+	padding: 0 0 5px;
+	position: relative;
+	line-height: normal;
+	font-size: 18px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+.block-title::after {
+	content: "";
+	width: 30px;
+	height: 3px;
+	background: #222;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.widget-content {
+	padding: 20px 0;
+	padding-top: 20px;
+	li {
+		border-bottom: 1px solid #eaeaea;
+		a {
+			position: relative;
+			padding-left: 15px;
+			line-height: normal;
+			text-transform: capitalize;
+			text-transform: capitalize;
+			text-decoration: none;
+			position: relative;
+			padding: 9px 0;
+			padding-left: 0px;
+			display: block;
+		}
+		a::before {
+			background: #999 none repeat scroll 0 0;
+			content: "";
+			height: 5px;
+			left: 2px;
+			position: absolute;
+			top: 15px;
+			width: 5px;
+			border-radius: none;
+		}
+	}
+}
+.sidebar-block {
+	h3 {
+		font-size: 14px;
+		font-weight: 600;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		border-bottom: 1px solid #eee;
+	}
+	li {
+		a {
+			position: relative;
+			padding-left: 15px;
+			line-height: normal;
+			text-transform: capitalize;
+			text-transform: capitalize;
+			text-decoration: none;
+			position: relative;
+			padding: 9px 0;
+			padding-left: 0px;
+			display: block;
+		}
+		a::before {
+			background: #999 none repeat scroll 0 0;
+			content: "";
+			height: 5px;
+			left: 2px;
+			position: absolute;
+			top: 15px;
+			width: 5px;
+			border-radius: none;
+		}
+	}
+}
+.browse-tags {
+	text-align: right;
+}
