@@ -1,5 +1,6 @@
 // All Style file Import here
-import "./scss/style.scss"
+import "./scss/style.scss";
+
 
 
 

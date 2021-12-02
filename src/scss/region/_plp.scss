@@ -90,6 +90,7 @@ $primary: #e23e1d;
 		margin-top: 60px;
 		left: 0;
 		right: 0;
+
 		.sca-qv-button {
 			padding: 0;
 			font-size: 14px;
@@ -103,4 +104,29 @@ $primary: #e23e1d;
 
 .plp-products:hover .add-to-link {
 	visibility: visible;
+}
+.plp-products {
+	.product-label {
+		background: #d6312b;
+		right: 0;
+		width: auto;
+		height: 20px;
+		line-height: 21px;
+		font-size: 10px;
+		font-weight: 400;
+		border-radius: 2px;
+		z-index: 2;
+		text-transform: capitalize;
+		text-align: center;
+		top: 0;
+		position: absolute;
+		letter-spacing: 0.5px;
+		min-width: 35px;
+		color: #fff;
+	}
+}
+.list-link {
+	.old-price {
+		text-decoration: line-through;
+	}
 }

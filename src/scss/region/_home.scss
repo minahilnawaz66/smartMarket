@@ -221,7 +221,7 @@ p.product-vendor span {
 .new-arrivals-product {
 	border: 1px solid $border-color;
 }
-.new-arrivals-product-shadow {
+.new-arrivals-product-shadow:hover {
 	box-shadow: rgba(0, 0, 0, 0.2) 0 8px 22px;
 }
 
@@ -296,7 +296,7 @@ p.product-vendor span {
 	border: 1px solid $border-color;
 }
 .recent-view-products:hover {
-	border: 1px solid $border-color;
+	border: 1px solid $primary;
 }
 .product-content-bottom {
 	.add-to-cart {
