@@ -76,3 +76,31 @@ $primary: #e23e1d;
 		opacity: 1;
 	}
 }
+.plp-products {
+	.add-to-link {
+		border-radius: 3px;
+		width: auto;
+		text-align: center;
+		z-index: 10;
+		position: absolute;
+		bottom: 100px;
+		background: #f0f2f9;
+		visibility: hidden;
+		position: relative;
+		margin-top: 60px;
+		left: 0;
+		right: 0;
+		.sca-qv-button {
+			padding: 0;
+			font-size: 14px;
+			text-transform: uppercase;
+			height: 40px;
+			line-height: 40px;
+			font-weight: 500;
+		}
+	}
+}
+
+.plp-products:hover .add-to-link {
+	visibility: visible;
+}

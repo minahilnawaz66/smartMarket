@@ -132,7 +132,9 @@ p.product-vendor span {
 .new-arrivals-product:hover a {
 	visibility: visible;
 }
-
+.plp-products:hover .add-to-link {
+	visibility: visible;
+}
 .carousel-inner {
 	.carousel-side-img {
 		width: 80%;
