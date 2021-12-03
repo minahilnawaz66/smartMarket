@@ -89,11 +89,20 @@ module.exports = {
 			filename: 'pages/blog.html',
 			template: 'src/pages/blog.html'
 		}),
+		new HtmlWebpackPlugin({
+			filename: 'pages/contact.html',
+			template: 'src/pages/contact.html'
+		}),
+		new HtmlWebpackPlugin({
+			filename: 'pages/aboutUs.html',
+			template: 'src/pages/aboutUs.html'
+		}),
 		  new MiniCssExtractPlugin({
             filename: "css/style.css",
         }),
+		
 		// [new ESLintPlugin({
-        //     filename: "css/style.css",
+		// 	extensions: ['.js']
         // })],
 
 		  
