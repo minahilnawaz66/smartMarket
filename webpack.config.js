@@ -97,6 +97,18 @@ module.exports = {
 			filename: 'pages/aboutUs.html',
 			template: 'src/pages/aboutUs.html'
 		}),
+		new HtmlWebpackPlugin({
+			filename: 'pages/lookBook.html',
+			template: 'src/pages/lookBook.html'
+		}),
+		new HtmlWebpackPlugin({
+			filename: 'cart.html',
+			template: 'src/cart.html'
+		}),
+		new HtmlWebpackPlugin({
+			filename: 'empty.html',
+			template: 'src/empty.html'
+		}),
 		  new MiniCssExtractPlugin({
             filename: "css/style.css",
         }),

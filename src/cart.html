@@ -9,7 +9,7 @@
 		<link rel="stylesheet" href="../../node_modules/slick-slider/slick/slick-theme.css" />
 		<link rel="stylesheet" href="../../node_modules/slick-slider/slick/slick.css" />
 		<link rel="stylesheet" href="../../dist/css/style.css" />
-		<title>Pages-contact</title>
+		<title>Cart</title>
 	</head>
 	<body>
 		<!-- banner-image -->
@@ -362,133 +362,85 @@
 						<div class="title">
 							<a href="/" title="Back to the frontpage" class="text-decoration-none text-black">Home</a>
 							<span class="icon">/</span>
-							<span class="text-secondary">Contact</span>
+							<span class="text-secondary">Your Shopping Cart</span>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 		<!-- main -->
-		<main class="container">
-			<div class="shopify-section">
-				<div class="block-top">
-					<div class="maps">
-						<iframe
-							class="w-100"
-							height="350"
-							frameborder="0"
-							src="https://maps.google.com/maps?hl=en&q=4th%20Ave%20New%20York&ie=UTF8&t=roadmap&z=16&iwloc=B&output=embed"
-							marginwidth="0"
-							marginheight="0"
-							scrolling="no"
-							style="pointer-events: none"
-						></iframe>
-					</div>
+		<main class="container typo-main main-content">
+			<div id="cart">
+				<div class="row">
+					<div class="col-lg-12">
+						<form action="/cart" method="post" id="cartform">
+							<table>
+								<thead>
+									<tr>
+										<th class="image">&nbsp;</th>
+										<th class="item">Product</th>
+										<th class="qty">Qty</th>
+										<th class="price">Price</th>
+										<th class="remove">Remove</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td class="image">
+											<div class="product_image">
+												<a href="">
+													<img
+														src="//cdn.shopify.com/s/files/1/2506/1620/products/p19_a2e287c4-6073-41dc-a360-a8c7943fa76a_compact.jpg?v=1510717293"
+														alt="iNewby 3.3mm Lens 720P HD  WiFi Smart"
+													/>
+												</a>
+											</div>
+										</td>
+										<td class="item">
+											<a href="">
+												<strong class="text-black">iNewby 3.3mm Lens 720P HD WiFi Smart</strong>
+											</a>
+										</td>
+										<td class="qty">
+											<input type="text" size="4" name="updates[]" value="2" onfocus="this.select();" class="tc item-quantity" />
+										</td>
+										<td class="price"><span class="money">$410.00</span></td>
+										<td class="remove">
+											<a href="empty.html" class="cart text-black font-weight-400" onclick="this.parentElement.style.display='none';">&times;</a>
+										</td>
+									</tr>
 
-					<div class="block-bottom">
-						<div class="container">
+									<tr class="summary">
+										<td colspan="3">Total price :</td>
+										<td class="price">
+											<span class="total"
+												><strong><span class="money">$410.00</span></strong></span
+											>
+										</td>
+										<td>&nbsp;</td>
+									</tr>
+								</tbody>
+							</table>
 							<div class="row">
-								<div class="col-md-4 col-sm-4 col-xs-12">
-									<h4 class="font-weight-400 font-size-20">France</h4>
-									<p class="cards-content">
-										40 Baria Sreet 133/2 NewYork City, US<br />
-										Email: info.contact@gmail.com<br />
-										Phone: 123-456-7890
-									</p>
+								<div class="col-md-6 col-sm-6">
+									<h3 class="add-comments text-black">Note Additional comments</h3>
+									<textarea name="note" class="input-full" id="cartSpecialInstructions"></textarea>
 								</div>
-								<div class="col-md-4 col-sm-4 col-xs-12">
-									<h4 class="font-weight-400 font-size-20">United States</h4>
-									<p class="cards-content">
-										40 Baria Sreet 133/2 NewYork City, US<br />
-										Email: info.contact@gmail.com<br />
-										Phone: 123-456-7890
-									</p>
-								</div>
-								<div class="col-md-4 col-sm-4 col-xs-12">
-									<h4 class="font-weight-400 font-size-20">Viet Nam</h4>
-									<p class="cards-content">
-										40 Baria Sreet 133/2 NewYork City, US<br />
-										Email: info.contact@gmail.com<br />
-										Phone: 123-456-7890
-									</p>
+
+								<div class="col-md-6 col-sm-6 span6 cart-buttons inner-right inner-left">
+									<input type="submit" id="checkout" class="btn" name="checkout" value="Check Out" />
+									<input type="submit" id="update-cart" class="btn" name="update" value="Update Cart" />
 								</div>
 							</div>
-						</div>
+						</form>
 					</div>
+					<div class="clearfix"></div>
 				</div>
-				<div class="contactus-page">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-6 col-sm-6 col-xs-12 block-left">
-								<div class="contact-title">
-									<h3>How can we help you?</h3>
-								</div>
 
-								<div class="block-left-content pt-3">
-									<img src="//cdn.shopify.com/s/files/1/2506/1620/files/contact-1_248x.png?v=1512980004" alt="" />
-									<div class="block-text">
-										<h4 class="text-black">Azure Wilson</h4>
-										<p class="cards-content">
-											Customer Realations<br />
-											963.806.0919<br />
-											AzureWilson@consulting.com
-										</p>
-									</div>
-								</div>
-
-								<div class="block-left-content">
-									<img src="//cdn.shopify.com/s/files/1/2506/1620/files/contact-2_248x.png?v=1512980011" alt="" />
-									<div class="block-text">
-										<h4 class="text-black">Keith Wilson</h4>
-										<p class="cards-content">
-											Customer Realations<br />
-											963.806.0919<br />
-											AzureWilson@consulting.com
-										</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-6 col-sm-6 col-xs-12">
-								<form method="post" action="/contact#contact_form" id="contact_form" accept-charset="UTF-8" class="contact-form">
-									<input type="hidden" name="form_type" value="contact" /><input type="hidden" name="utf8" value="✓" />
-
-									<div id="contactFormWrapper">
-										<div class="contact-title">
-											<h3>Contact Us</h3>
-										</div>
-										<div class="form-contact">
-											<div class="row">
-												<div class="col-md-12 col-sm-12 col-xs-12 pt-3">
-													<div class="row">
-														<div class="col-md-6 col-sm-6 col-xs-12">
-															<label class="font-weight-500 text-black">Name:</label>
-															<input type="text" id="contactFormName" name="contact[name]" class="w-100" />
-														</div>
-														<div class="col-md-6 col-sm-6 col-xs-12">
-															<label class="font-weight-500 text-black">Email:</label>
-															<input type="email" name="contact[email]" id="contactFormEmail" class="w-100" />
-														</div>
-													</div>
-												</div>
-											</div>
-											<label for="ContactFormPhone" class="font-weight-500 text-black">Phone Number:</label>
-											<input type="tel" id="ContactFormPhone" name="contact[phone]" pattern="[0-9\-]*" value="" class="w-100" />
-											<div class="row">
-												<div class="col-xs-12">
-													<label class="font-weight-500 text-black">Message</label>
-													<textarea rows="7" name="contact[body]" id="contactFormMessage" placeholder="" class="w-100"></textarea>
-													<input type="submit" class="btn pull-right text-white" value="Send" />
-												</div>
-											</div>
-										</div>
-									</div>
-								</form>
-							</div>
-						</div>
-					</div>
-				</div>
+				<!-- End cart -->
 			</div>
 		</main>
+
 		<!-- footer -->
 		<footer class="typo-footer footer-layout-1">
 			<div class="navbar-top">

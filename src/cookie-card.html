@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css" />
+
+		<!-- <link rel="stylesheet" href="../dist/css/theme.css" /> -->
+		<title>Cookie Banner</title>
+		<style>
+			body {
+				background-color: rgba(0, 0, 0, 0.5);
+			}
+
+			.cookie-banner {
+				height: 335px;
+				width: 375px;
+				top: 370px;
+				left: 1120px;
+			}
+
+			.cookie-banner-top {
+				padding: 20px;
+				background-color: #f5f5f5;
+			}
+
+			.cookie-banner-heading {
+				font-size: 20px;
+				line-height: 23px;
+				margin-bottom: 15px;
+			}
+
+			.cookie-banner-body {
+				font-size: 14px;
+				line-height: 21px;
+				text-align: justify;
+			}
+
+			.scroller {
+				height: 95px;
+				overflow-y: scroll !important;
+				overflow-x: hidden !important;
+				padding-right: 8px;
+			}
+
+			.cookie-banner-links a {
+				font-size: 14px;
+				flex: 50%;
+			}
+
+			.cookie-banner-bottom {
+				padding: 20px;
+			}
+
+			.cookie-banner-bottom a {
+				line-height: 16px;
+			}
+
+			.cookie-banner-bottom .btn {
+				margin: 0 20px 20px;
+				width: 295px;
+				padding: 14px 0;
+				font-size: 15px;
+				line-height: 18px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="position-relative">
+			<div class="cookie-banner position-absolute">
+				<div class="cookie-banner-top">
+					<h3 class="cookie-banner-heading fw-bold text-uppercase text-center">Cookies, mit liebe gemacht</h3>
+					<p class="scroller cookie-banner-body">
+						Um Ihnen ein optimales und möglichst angenehmes Shoppingerlebnis zu ermöglichen, verwenden wir Cookies. Eine Übersicht und weitere Einstellungsmöglichkeiten
+						dieser Cookies finden Sie in unseren Cookie-Einstellungen. Gerne überlassen wir Ihnen die Auswahl. Zu jeder Zeit können Sie Ihre Einstellungen ändern. Bei
+						umfänglicher Zustimmung können auch personenbezogene Daten durch uns und unsere Partner teilweise in den USA gesammelt und verarbeitet werden. Das
+						Blockieren einiger Cookie-Typen kann unsere Möglichkeiten zur Bereitstellung und Verbesserung unserer Dienstleistungen beeinträchtigen.
+					</p>
+					<div class="cookie-banner-links d-flex text-center">
+						<a href="#" class="text-black">Datenschutzerklärung </a>
+						<a href="#" class="text-black">Impressum</a>
+					</div>
+				</div>
+				<div class="cookie-banner-bottom bg-white">
+					<div class="btn rounded-0 fw-bold bg-black text-white text-uppercase"><i class="icon-cookie"></i>Ok, Danke!</div>
+					<div class="cookie-banner-links d-flex text-center">
+						<a href="#" class="text-black">Alle ablehnen </a>
+						<a href="#" class="text-black">Cookie-Einstellungen</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="../node_modules/jquery/dist/jquery.min.js"></script>
+		<script type="text/javascript" src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+		<script src="../dist/js/bundle.js"></script>
+	</body>
+</html>
