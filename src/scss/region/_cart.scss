@@ -57,3 +57,50 @@
 		font-weight: 300;
 	}
 }
+.left-300 {
+	left: -320px;
+}
+.product-inner-cart {
+	width: 180px;
+	float: left;
+	padding-left: 0;
+}
+
+.btn-remove-cart {
+	position: absolute;
+	top: 50px;
+	right: 30px;
+	padding-right: 0;
+	line-height: 14px;
+	font-size: 20px;
+	margin-bottom: 0;
+}
+.summary-cart,
+.actions {
+	top: 75%;
+	position: absolute;
+	border-top: 1px solid white;
+	width: 100%;
+}
+.fs-1 {
+	font-size: 18px !important;
+}
+.view-cart {
+	span {
+		text-align: center;
+		background: #000;
+		color: #fff;
+		text-transform: uppercase;
+		border-radius: 0;
+		font-weight: 400;
+		line-height: 40px;
+		height: 40px;
+		margin-top: 15px;
+		width: auto;
+		padding: 0 25px;
+		letter-spacing: 3px;
+		&:hover {
+			background: #333;
+		}
+	}
+}
