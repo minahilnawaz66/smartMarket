@@ -80,6 +80,17 @@
 			max-width: calc(100% / 12 * 5);
 			flex: 0 0 calc(100% / 12 * 5);
 		}
+		@media (max-width: 768px){
+			.row{
+				display: block;
+			}
+			.row-cols-5-7 .col,
+			.row-cols-5-7 .col:nth-child(2n),
+			.row-cols-7-5 .col,
+			.row-cols-7-5 col:nth-child(2n){
+				max-width: 100%;
+			}
+		}
 
 	</style>
 </head>
