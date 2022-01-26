@@ -1,0 +1,103 @@
+.teaserLayout {
+
+
+
+
+    .card {
+        border: none;
+        padding-bottom: 30px;
+        position: relative;
+
+        .card-body {
+            padding: 15px;
+
+            .card-title {
+            
+
+				line-height: 38px;
+				font-size: 26px;
+                letter-spacing: 0.02em;
+                margin: 15px 0;
+            }
+
+            .card-text {
+				line-height: 21px;
+				font-size: 14px;
+            }
+
+            a {
+				line-height: 21px;
+				font-size: 14px;
+                border-bottom: 1px solid black;
+                color: black;
+                letter-spacing: 0.02em;
+                padding: 0 6px 5px;
+
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+
+    .card.has-overlay {
+        padding-bottom: 0;
+
+        .card-body {
+            color: white;
+            background: rgba(0,0,0,0.2);
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+
+            a {
+                color: white;
+                border-bottom: 1px solid white;
+            }
+        }
+    }
+
+}
+
+.row-cols-5-7 {
+	.col {
+		max-width: calc(100% / 12 * 5);
+		flex: 0 0 calc(100% / 12 * 5);
+	}
+
+	.col:nth-child(2n) {
+		max-width: calc(100% / 12 * 7);
+		flex: 0 0 calc(100% / 12 * 7);
+	}
+}
+
+.row-cols-7-5 {
+	.col {
+		max-width: calc(100% / 12 * 7);
+		flex: 0 0 calc(100% / 12 * 7);
+	}
+
+	.col:nth-child(2n) {
+		max-width: calc(100% / 12 * 5);
+		flex: 0 0 calc(100% / 12 * 5);
+	}
+}
+@media (max-width: 768px) {
+	.row {
+		display: block;
+	}
+
+	.row-cols-5-7 .col,
+	.row-cols-5-7 .col:nth-child(2n),
+	.row-cols-7-5 .col,
+	.row-cols-7-5 .col:nth-child(2n) {
+		max-width: 100%;
+	}
+}
